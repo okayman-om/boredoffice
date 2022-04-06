@@ -23,6 +23,7 @@ a {
 
 .logo {
   background: crimson;
+  padding-right: 32px;
 }
 
 header {
@@ -47,6 +48,19 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.btn-cta {
+  background: crimson;
+  padding: 10px 10px;
+}
+
+nav ul li a:hover {
+  color: crimson;
+}
+
+.btn-cta:hover {
+  background: darkred;
 }
 
 .cover {
